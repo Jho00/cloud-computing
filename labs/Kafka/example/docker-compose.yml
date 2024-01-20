@@ -1,0 +1,119 @@
+version: '3'
+services:
+  api-service:
+    build:
+      context: ./APIService
+      dockerfile: Dockerfile
+    networks:
+      - db-network
+      - api-network
+    ports:
+      - "8080:8080"
+    environment:
+      - DATA_SERVICE_BASE_URL=${DATA_SERVICE_BASE_URL}
+      - SPRING_PROFILES_ACTIVE=production
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9093
+      - SERVER_PORT=8080
+      - KAFKA_STUDENT_TOPIC=${TOPIC}
+    depends_on:
+      - kafka
+      - data-service1
+      - data-service2
+
+  data-service1:
+    build:
+      context: ./DataService
+      dockerfile: Dockerfile
+    container_name: data-service
+    networks:
+      - db-network
+    ports:
+      - "8081:8081"
+    environment:
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9093
+      - SPRING_KAFKA_CONSUMER_GROUP_ID=group_id_1
+      - KAFKA_STUDENT_TOPIC=${TOPIC}
+      - SERVER_PORT=8081
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_HOST=mongodb
+      - KAFKA_CONSUMER_ID=group_id_1
+    depends_on:
+      - kafka
+      - mongo_db
+
+  data-service2:
+    build:
+      context: ./DataService
+      dockerfile: Dockerfile
+    container_name: data-service
+    networks:
+      - db-network
+    ports:
+      - "8082:8082"
+    environment:
+      - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9093
+      - SPRING_KAFKA_CONSUMER_GROUP_ID=group_id_1
+      - KAFKA_STUDENT_TOPIC=${TOPIC}
+      - SERVER_PORT=8082
+      - MONGO_USERNAME=${MONGO_USERNAME}
+      - MONGO_PASSWORD=${MONGO_PASSWORD}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_HOST=mongodb
+      - KAFKA_CONSUMER_ID=group_id_1
+    depends_on:
+      - kafka
+      - mongo_db
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    networks:
+      - db-network
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:9093,OUTSIDE://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_LISTENERS: INSIDE://0.0.0.0:9093,OUTSIDE://0.0.0.0:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_CONFLUENT_SUPPORT_METRICS_ENABLE: "false"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    depends_on:
+      - zookeeper
+    entrypoint: /bin/sh
+    command: >
+      -c "sleep 30 &&
+      kafka-topics --create --bootstrap-server kafka:9092 --partitions 2 --replication-factor 1 --topic ${TOPIC}"
+
+  zookeeper:
+    networks:
+      - db-network
+    image: wurstmeister/zookeeper:3.4.6
+    ports:
+      - "2181:2181"
+
+  mongo_db:
+    image: mongo
+    restart: always
+    container_name: mongodb
+    networks:
+      - db-network
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+      - MONGO_INITDB_DATABASE=${DATABASE_NAME}
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
+networks:
+  db-network:
+    driver: bridge
+    internal: true # Установите внутренний режим для ограничения доступа с хоста
+  api-network:
+    driver: bridge
+

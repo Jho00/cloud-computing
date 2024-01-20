@@ -1,0 +1,6 @@
+.idea
+build
+APIService/build
+APIService/.gradle
+DataService/build
+DataService/.gradle

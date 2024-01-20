@@ -1,0 +1,28 @@
+{
+  "name": "raft-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rimraf ./src/logs && tsc && node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "@types/uuid": "^9.0.1",
+    "app-root-path": "^3.1.0",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "rimraf": "^5.0.0",
+    "ts-dedent": "^2.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
