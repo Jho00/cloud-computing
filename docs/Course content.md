@@ -1,7 +1,7 @@
 # Содержание курса
 
 ### Тема 1: Введение в клауд-компьютинг
-[Презентация](https://docs.google.com/presentation/d/1iqTRrsieWRUTxLxrRrq2a023sCCv28j3TH1J8OVXndc/edit)
+[Презентация](https://docs.google.com/presentation/d/15xnqRTcD0cXh9n4ZAoRxKyGYpyDSbnW_QXNKbzQKrHs/edit?usp=sharing)
 
 #### Материалы
 **Статьи:**
@@ -21,6 +21,11 @@
 **Видео:**
 * https://www.youtube.com/watch?v=Jz8Gs4UHTO8&ab_channel=ByteByteGo
 
+**Статьи:**
+* https://intuit.ru/studies/courses/4107/624/lecture/13590
+* https://habr.com/ru/articles/474776/
+* https://www.sim-networks.com/en/blog/hypervisors-vmware-kvm-xen-openvz
+
 -------------------------------------------------------------------------------------------
 
 ### Тема 4: Контейнеры
@@ -32,24 +37,22 @@
 * https://www.codementor.io/blog/docker-technology-5x1kilcbow
 * https://skillbox.ru/media/code/kak-rabotaet-docker-podrobnyy-gayd-ot-tekhlida/ (RU)
 * https://habr.com/ru/articles/458462/ (RU)
-
-**Начальные статьи**
 * https://habr.com/ru/companies/ruvds/articles/438796/
 * https://badtry.net/docker-tutorial-dlia-novichkov-rassmatrivaiem-docker-tak-iesli-by-on-byl-ighrovoi-pristavkoi/
-
-**Docker подробнее**
 * https://habr.com/ru/articles/234829/
 * https://habr.com/ru/articles/659049/
-
-**Docker vs Virtual Machine**
 * https://habr.com/ru/articles/474068/
-
-**ENTRYPOINT VS CMD**
 * https://habr.com/ru/companies/slurm/articles/329138/
-
-**multi-stage build**
 * https://habr.com/ru/articles/349802/
 * https://earthly.dev/blog/docker-multistage/
+* https://habr.com/ru/articles/541288/
+* https://habr.com/ru/companies/domclick/articles/566224/
+* https://habr.com/ru/companies/slurm/articles/534334/
+* https://habr.com/ru/companies/selectel/articles/279281/
+* https://habr.com/ru/companies/selectel/articles/303190/
+* https://habr.com/ru/companies/ruvds/articles/450312/
+* https://www.capitalone.com/tech/cloud/container-runtime/
+* https://opencontainers.org/
 
 **Дополнительный материал**
 * https://kazarin.online/index.php/2021/03/17/docker-antipatterns/
@@ -67,6 +70,8 @@
 #### Материалы
 **Статьи:**
 * https://developer.ibm.com/articles/j-zerocopy/
+* https://csprimer.com/articles/consistency/
+* https://habr.com/ru/articles/258145/
 
 -------------------------------------------------------------------------------------------
 
