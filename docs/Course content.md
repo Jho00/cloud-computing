@@ -61,6 +61,8 @@
 * https://habr.com/ru/articles/529814/
 * https://habr.com/ru/companies/first/articles/650553/
 * https://habr.com/ru/articles/486202/
+* https://habr.com/ru/companies/selectel/articles/303190/
+* https://habr.com/ru/companies/selectel/articles/279281/
 
 -------------------------------------------------------------------------------------------
 
