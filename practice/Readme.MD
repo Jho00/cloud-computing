@@ -6,3 +6,6 @@
 - [Nginx & Docker](p4.MD)
 - [App & Docker](p5.MD)
 - [Nginx & Reverse Pass](p6.MD)
+- [Реализация cache-стратегии на Redis](p7.MD)
+- [Развертывование фронтенд-приложения через Github-pages](p8.MD)
+- [Автоматическое развертывание через Github Actions](p9.MD)
