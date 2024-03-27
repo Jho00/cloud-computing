@@ -74,24 +74,17 @@
 * https://developer.ibm.com/articles/j-zerocopy/
 * https://csprimer.com/articles/consistency/
 * https://habr.com/ru/articles/258145/
+* https://habr.com/ru/companies/vk/articles/738616/
 
 -------------------------------------------------------------------------------------------
 
-### Тема 6: MongoDB
-[Презентация](https://docs.google.com/presentation/d/1xk50BbUhQxaBl5clsc3uXlcVccjSgloDhaU_d_EmJuI/edit#slide=id.p)
-
-#### Материалы
-**Статьи:**
-* https://habr.com/ru/articles/134590/ (RU)
-
--------------------------------------------------------------------------------------------
-
-### Тема 7: Redis
+### Тема 6: Redis
 [Презентация](https://docs.google.com/presentation/d/1nv76Ue7izbO7rgNOUjymr4SMAOVUXKTRtzvC48dR2cU/edit)
 
 #### Материалы
 **Статьи:**
 * https://redis.io/docs/getting-started/faq/#background-saving-fails-with-a-fork-error-on-linux
+* https://habr.com/ru/companies/wunderfund/articles/685894/
 
 **Презентации:**
 * https://static.simonwillison.net/static/2010/redis-tutorial/
@@ -102,7 +95,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 8: Микросервисы
+### Тема 7: Микросервисы
 [Презентация](https://docs.google.com/presentation/d/1qhrUtSLl-Epy6haLhIrD9J1xH6Ypz28kfB4HXUmHT5k/edit?usp=sharing)
 
 #### Материалы
@@ -118,7 +111,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 9: Экосистема микросервисов
+### Тема 8: Экосистема микросервисов
 [Презентация](https://docs.google.com/presentation/d/1K7-pslaqAHVE5XcD6dqhLs7wffYbLiWLzMZC-uPiYJE/edit?usp=sharing)
 
 #### Материалы
@@ -127,7 +120,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 10: Apache Kafka
+### Тема 9: Apache Kafka
 [Презентация](https://docs.google.com/presentation/d/1Epph7ScdsTrq2rLcly8tOXcc-K9peLwa8QxxMQz-5A4/edit)
 
 #### Материалы
@@ -144,7 +137,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 11: Облачные приложения
+### Тема 10: Облачные приложения
 [Презентация](https://docs.google.com/presentation/d/1LofVMVoKG1Ri1GZ8XNugGPmGzIib2mJtpCLrQs1ty_w/edit)
 
 #### Материалы
@@ -154,7 +147,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 12: Облачные паттерны
+### Тема 11: Облачные паттерны
 [Презентация 1](https://docs.google.com/presentation/d/1kuybhhGh4XMac7Du3VXv6lPWlImTKpAdcD8r8tPhEXs/edit)
 [Презентация 2](https://docs.google.com/presentation/d/12Hq5BCjC5gWAMsv2vcxVZWg_Uwak4sEPk9t2EkY0d6M/edit)
 
@@ -170,7 +163,7 @@
 
 -------------------------------------------------------------------------------------------
 
-### Тема 13: Безопасность в облаках
+### Тема 12: Безопасность в облаках
 [Презентация](https://docs.google.com/presentation/d/1TWUnVh_sHMnFY9gK843x36bu4ycvtnKXyAcxl_QzwqA/edit)
 
 #### Материалы
