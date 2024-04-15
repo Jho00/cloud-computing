@@ -1,0 +1,47 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    env_file:
+      - postgres.env
+    networks:
+      - app_network
+    volumes:
+      - postgres_volume_new:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  redis:
+    image: redis:latest
+    env_file:
+      - redis.env
+    networks:
+      - app_network
+    healthcheck:
+      test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - app.env
+    networks:
+      - app_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    deploy:
+      replicas: 3
+networks:
+  app_network:
+    driver: bridge
+volumes:
+  postgres_volume_new:
+    driver: local
