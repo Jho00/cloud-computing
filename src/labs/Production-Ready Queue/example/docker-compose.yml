@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  db:
+    image: "postgres:13"  
+    ports:
+      - "5433:5432"  # Измените порт на нужный вам, например, с 5432 на 5433
+    environment:
+      - POSTGRES_USER=postgres  
+      - POSTGRES_PASSWORD=postgres 
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data

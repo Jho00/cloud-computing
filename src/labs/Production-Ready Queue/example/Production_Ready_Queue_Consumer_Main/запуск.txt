@@ -1,0 +1,8 @@
+1)Запускаем консоль от имени админа
+2)cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.13.1\sbin
+3)rabbitmq-service.bat start - команда для старта RabbitMQ
+4)http://localhost:15672/
+5)Логин - guest, Пароль - guest
+6)rabbitmq-service.bat stop - команда для остановки RabbitMQ
+7) в одном терминале node producer.js
+8) в другом терминале node consumer.js

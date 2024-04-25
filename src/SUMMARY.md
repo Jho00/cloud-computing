@@ -33,6 +33,7 @@
 - [Идемпотентность POST - запросов](practice/IdempotencyKey.MD)
 - [Знакомство с gRPC](practice/GrpcBasic.MD)
 - [Service Discovery](practice/ServiceDiscovery.MD)
+- [Background Replication Job](practice/BackgroundReplicationJob.MD)
 
 # Дополнительные материалы
 - [Контент](docs/mdbook/Materials.MD)

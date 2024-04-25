@@ -14,3 +14,4 @@
 - [Идемпотентность POST - запросов](IdempotencyKey.MD)
 - [Знакомство с gRPC](GrpcBasic.MD)
 - [Service Discovery](ServiceDiscovery.MD)
+- [Background Replication Job](BackgroundReplicationJob.MD)
