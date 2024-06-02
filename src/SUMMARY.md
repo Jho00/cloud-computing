@@ -30,9 +30,11 @@
 - [Автоматическое развертывание через Github Actions](practice/GithubActionsToGithubPages.MD)
 - [Автоматическое тестирование приложения на уровне CI](practice/GithubActionsAutoTests.MD)
 - [Знакомство с Kafka](practice/KafkaBasic.MD)
+- [Масштабирование Kafka](practice/KafkaScaling.MD)
 - [Идемпотентность POST - запросов](practice/IdempotencyKey.MD)
 - [Знакомство с gRPC](practice/GrpcBasic.MD)
 - [Service Discovery](practice/ServiceDiscovery.MD)
+- [Балансировка нагрузки](practice/LoadBalancing.MD)
 - [Background Replication Job](practice/BackgroundReplicationJob.MD)
 
 # Дополнительные материалы
