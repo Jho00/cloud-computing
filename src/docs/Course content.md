@@ -1,7 +1,7 @@
 # Содержание курса
 
 ### Тема 1: Введение в клауд-компьютинг
-[Презентация](https://docs.google.com/presentation/d/15xnqRTcD0cXh9n4ZAoRxKyGYpyDSbnW_QXNKbzQKrHs/edit?usp=sharing)
+[Презентация](https://docs.google.com/presentation/d/1iqTRrsieWRUTxLxrRrq2a023sCCv28j3TH1J8OVXndc/edit#slide=id.p)
 
 #### Материалы
 **Статьи:**
