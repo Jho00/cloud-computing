@@ -134,6 +134,7 @@
 **Видео:**
 * https://youtu.be/-AZOi3kP9Js?si=KCEdA-C5dsEu8yzS (RU)
 * https://www.youtube.com/watch?v=UNUz1-msbOM&ab_channel=ByteByteGo
+* https://www.youtube.com/watch?v=n0faRYjoom8 (RU)
 
 -------------------------------------------------------------------------------------------
 
