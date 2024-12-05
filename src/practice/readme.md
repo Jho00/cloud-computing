@@ -1,0 +1,18 @@
+# Задания для выполнения на практических занятиях
+
+- [Вводное занятие](list/Intro.MD)
+- [Знакомство с контейнерами](list/BasicContainers.MD)
+- [Nginx & Docker](list/DockerNginx.MD)
+- [App & Docker](list/DockerApp.MD)
+- [Nginx & Reverse Proxy](list/NginxReverseProxy.MD)
+- [Реализация cache-стратегии на Redis](list/RedisCache.MD)
+- [Развертывование фронтенд-приложения через Github-pages](list/ReactGithubPages.MD)
+- [Автоматическое развертывание через Github Actions](list/GithubActionsToGithubPages.MD)
+- [Автоматическое тестирование приложения на уровне CI](list/GithubActionsAutoTests.MD)
+- [Знакомство с Kafka](list/KafkaBasic.MD)
+- [Масштабирование Kafka](list/KafkaScaling.MD)
+- [Идемпотентность POST - запросов](list/IdempotencyKey.MD)
+- [Знакомство с gRPC](list/GrpcBasic.MD)
+- [Service Discovery](list/ServiceDiscovery.MD)
+- [Балансировка нагрузки](list/LoadBalancing.MD)
+- [Background Replication Job](list/BackgroundReplicationJob.MD)
