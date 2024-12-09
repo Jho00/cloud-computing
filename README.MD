@@ -4,7 +4,7 @@
 Про курс:
 * [Дорожная карта](src/docs/roadmap.md)
 * [Требования к прохождению курса](src/docs/requirements.md)
-* [Практические работы](src/practice/readme)
+* [Практические работы](src/practice/readme.md)
 * [FAQ](src/docs/faq.md)
 
 Материалы:
