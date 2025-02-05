@@ -11,6 +11,7 @@
 * C. Cомасегар. Руководство Microsoft по проектированию архитектуры приложений
 * Иван Портянкин: Программирование Cloud Native. Микросервисы, Docker и Kubernetes. [Бесплатно тут](https://ipsoftware.ru/books/cloud-k8s/)
 * Разработка мультитенантных приложений для облака, издание 3-е. [Бесплатно тут](https://www.microsoft.com/ru-ru/download/details.aspx?id=29263)
+* Docker-Compose для разработчика, Гадзурас Э [Бесплатно тут](https://midlcode.com/ru/books/docker-compose-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0/)
 
 
 Ссылки на скачивание части литературы можно найти здесь: [Ссылка](https://github.com/Jho00/system-engineering/blob/main/src/reading-list/books.MD)
