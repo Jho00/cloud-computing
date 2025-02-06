@@ -7,6 +7,11 @@
 
 #### Раздел 1 - Введение в облачные вычисления
 * 📕 (EN) Определение клауд компьютинга - [Ссылка](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf)
+* 📕 (EN) A break in the clouds: towards a cloud definition - [Ссылка](https://dl.acm.org/doi/10.1145/1496091.1496100)
+* 📕 (EN) A view of cloud computing - [Ссылка](https://dl.acm.org/doi/10.1145/1721654.1721672)
+* 📕 (EN) A Taxonomy and Survey of Cloud Computing Systems - [Ссылка](https://ieeexplore.ieee.org/document/5331755)
+* 📕 (EN) CCOA: Cloud Computing Open Architecture - [Ссылка](https://ieeexplore.ieee.org/abstract/document/5175875)
+* 📕 (EN) Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases- [Ссылка](https://pages.cs.wisc.edu/~yxy/cs764-f20/papers/aurora-sigmod-17.pdf)
 
 #### Раздел 2 - Инструментарий облаков
 * 🎥 (EN) Big Misconceptions about Bare Metal, Virtual Machines, and Containers - [Ссылка](https://www.youtube.com/watch?v=Jz8Gs4UHTO8&ab_channel=ByteByteGo)
