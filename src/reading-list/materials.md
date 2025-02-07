@@ -45,7 +45,6 @@
 
 #### Раздел 3 - Базы данных
 * 📕 (EN) Efficient data transfer through zero copy - [Ссылка](https://developer.ibm.com/articles/j-zerocopy/)
-* 📕 (EN) How to be consistent - [Ссылка](https://csprimer.com/articles/consistency/)
 * 📕 Забудьте САР теорему как более не актуальную - [Ссылка](https://habr.com/ru/articles/258145/)
 * 📕 Балансируем между консистентностью и доступностью в распределённой системе: опыт Tarantool - [Ссылка](https://habr.com/ru/companies/vk/articles/738616/)
 * 📕 Разбираемся с Redis - [Ссылка](https://habr.com/ru/companies/wunderfund/articles/685894/)
@@ -57,7 +56,6 @@
 * 📕 (EN) On the Definition of Microservice Bad Smells - [Ссылка](https://www.researchgate.net/publication/324007573_On_the_Definition_of_Microservice_Bad_Smells)
 * 📕 Балансировка нагрузки: основные алгоритмы и методы - [Ссылка](https://selectel.ru/blog/balansirovka-nagruzki-osnovnye-algoritmy-i-metody/)
 * 📕 (EN) Kafka: a Distributed Messaging System for Log Processing - [Ссылка](https://notes.stephenholiday.com/Kafka.pdf)
-* 📕 (EN) Почему KRaft заменил ZooKeeper - [Ссылка](https://habr.com/ru/companies/slurm/articles/685694/)
 * 📕 (EN) Почему KRaft заменил ZooKeeper - [Ссылка](https://habr.com/ru/companies/slurm/articles/685694/)
 * 🎥 Про Kafka (основы) - [Ссылка](https://youtu.be/-AZOi3kP9Js?si=SMPyKFRQB9EcFuWU)
 * 🎥 (EN) System Design: Why is Kafka fast? - [Ссылка](https://youtu.be/UNUz1-msbOM?si=MTpRXYWIwyRZrQJm)
