@@ -1,5 +1,6 @@
 ### Список литературы
 
+* Andrew Tanenbaum, Maarten van Steen: Distributed Systems [Бесплатно тут](https://www.distributed-systems.net/index.php/books/ds4/)
 * Крис Ричардсон: Микросервисы. Паттерны разработки и рефакторинга
 * Мартин Клеппман: Высоконагруженные приложения. Программирование, масштабирование, поддержка.
 * Алекс Сюй (Alex Xu): System Design. Подготовка к сложному интервью

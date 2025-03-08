@@ -45,13 +45,13 @@
 
 #### Раздел 3 - Базы данных
 * 📕 (EN) Efficient data transfer through zero copy - [Ссылка](https://developer.ibm.com/articles/j-zerocopy/)
-* 📕 Забудьте САР теорему как более не актуальную - [Ссылка](https://habr.com/ru/articles/258145/)
-* 📕 Балансируем между консистентностью и доступностью в распределённой системе: опыт Tarantool - [Ссылка](https://habr.com/ru/companies/vk/articles/738616/)
 * 📕 Разбираемся с Redis - [Ссылка](https://habr.com/ru/companies/wunderfund/articles/685894/)
 * 🎥 (EN) System Design: Why is single-threaded Redis so fast? - [Ссылка](https://www.youtube.com/watch?v=5TRFpFBccQM&ab_channel=ByteByteGo)
 * 🎥 (EN) Top 5 Redis Use Cases - [Ссылка](https://www.youtube.com/watch?v=a4yX7RUgTxI&ab_channel=ByteByteGo)
 
-#### Раздел 4 - Микросервисы
+#### Раздел 4 - Распределенные системы и отказоустойчивость
+* 📕 Балансируем между консистентностью и доступностью в распределённой системе: опыт Tarantool - [Ссылка](https://habr.com/ru/companies/vk/articles/738616/)
+* 📕 Забудьте САР теорему как более не актуальную - [Ссылка](https://habr.com/ru/articles/258145/)
 * 📕 (EN) Microservices Design Principles - [Ссылка](https://www.developer.com/design/microservices-design-principles/)
 * 📕 (EN) On the Definition of Microservice Bad Smells - [Ссылка](https://www.researchgate.net/publication/324007573_On_the_Definition_of_Microservice_Bad_Smells)
 * 📕 Балансировка нагрузки: основные алгоритмы и методы - [Ссылка](https://selectel.ru/blog/balansirovka-nagruzki-osnovnye-algoritmy-i-metody/)
