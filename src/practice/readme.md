@@ -6,7 +6,7 @@
 - [App & Docker](list/DockerApp.MD)
 - [Nginx & Reverse Proxy](list/NginxReverseProxy.MD)
 - [Реализация cache-стратегии на Redis](list/RedisCache.MD)
-- [Развертывование фронтенд-приложения через Github-pages](list/ReactGithubPages.MD)
+- [Деплой фронтенда через Github Pages](list/ReactGithubPages.MD)
 - [Автоматическое развертывание через Github Actions](list/GithubActionsToGithubPages.MD)
 - [Автоматическое тестирование приложения на уровне CI](list/GithubActionsAutoTests.MD)
 - [Знакомство с Kafka](list/KafkaBasic.MD)
