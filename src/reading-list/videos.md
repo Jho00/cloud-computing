@@ -11,7 +11,7 @@
 * Александр Кривощеков - Паттерны отказоустойчивой архитектуры - [Ссылка](https://www.youtube.com/watch?v=WWTq-tbZwUE&ab_channel=HighLoadChannel)
 * Кирилл Ветчинкин - Микросервисная архитектура, подходы и технологии - [Ссылка](https://www.youtube.com/watch?v=FF-GZ7iipwc&t=2120s&ab_channel=HighLoadChannel)
 * Александр Фишер - Инструменты надежности Такси  - [Ссылка](https://www.youtube.com/watch?v=ATTXtS7Dzqg&ab_channel=YandexforDevelopers)
-* Михаил Натаров - Sage - [Ссылка](https://www.youtube.com/live/tLw8lJ-Eijk?si=wNobYHeUJsfbzUJB)
+* Михаил Натаров - Saga - [Ссылка](https://www.youtube.com/live/tLw8lJ-Eijk?si=wNobYHeUJsfbzUJB)
 
 #### Инфраструктура и DevOps
 * Дмитрий Столяров - Лучшие практики CI/CD с Kubernetes и GitLab - [Ссылка](https://www.youtube.com/watch?v=U7Zo_e28aQA&t=13s&ab_channel=HighLoadChannel)
