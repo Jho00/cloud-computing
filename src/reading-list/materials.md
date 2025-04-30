@@ -73,3 +73,5 @@
 * 📕 Гектор Гарсия-Молина и Кеннет Салем — «Саги» - [Ссылка](https://habr.com/ru/companies/jugru/articles/680460/)
 * 📕 Безопасность REST API от А до ПИ - [Ссылка](https://habr.com/ru/articles/503284/)
 * 📕 Как организовать безопасное хранение секретов в Docker: лучшие практики - [Ссылка](https://habr.com/ru/articles/872128/)
+* 📕 (EN) A Survey of Security Issues for Cloud Computing. Journal of Network and Computer Applications - [Ссылка](https://www.scirp.org/reference/referencespapers?referenceid=1868833)
+* 📕 (EN) Privacy, Security and Trust in Cloud Computing - [Ссылка](https://www.researchgate.net/publication/278658293_Privacy_Security_and_Trust_in_Cloud_Computing)
