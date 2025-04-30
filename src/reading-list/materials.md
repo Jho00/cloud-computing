@@ -56,7 +56,7 @@
 * 📕 (EN) On the Definition of Microservice Bad Smells - [Ссылка](https://www.researchgate.net/publication/324007573_On_the_Definition_of_Microservice_Bad_Smells)
 * 📕 Балансировка нагрузки: основные алгоритмы и методы - [Ссылка](https://selectel.ru/blog/balansirovka-nagruzki-osnovnye-algoritmy-i-metody/)
 * 📕 (EN) Kafka: a Distributed Messaging System for Log Processing - [Ссылка](https://notes.stephenholiday.com/Kafka.pdf)
-* 📕 (EN) Почему KRaft заменил ZooKeeper - [Ссылка](https://habr.com/ru/companies/slurm/articles/685694/)
+* 📕 Почему KRaft заменил ZooKeeper - [Ссылка](https://habr.com/ru/companies/slurm/articles/685694/)
 * 🎥 Про Kafka (основы) - [Ссылка](https://youtu.be/-AZOi3kP9Js?si=SMPyKFRQB9EcFuWU)
 * 🎥 (EN) System Design: Why is Kafka fast? - [Ссылка](https://youtu.be/UNUz1-msbOM?si=MTpRXYWIwyRZrQJm)
 * 🎥 Роман Липовский. Kafka - [Ссылка](https://youtu.be/n0faRYjoom8?si=MmD2wChE9Qd3DSt4)
