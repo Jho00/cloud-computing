@@ -1,6 +1,7 @@
 #### Онлайн - ресурсы
 * Микросервисы - [Ссылка](https://microservices.io/)
 * Awesome Архитектура - [Ссылка](https://awesome-architecture.com/)
+* OWASP Cheatsheet - [Ссылка](https://cheatsheetseries.owasp.org/)
 
 #### Полезные репозитории
 * Backend Cheatsheet - [Ссылка](https://github.com/cheatsnake/backend-cheats/blob/master/README_RUS.md)
