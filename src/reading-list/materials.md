@@ -60,6 +60,7 @@
 * 🎥 Про Kafka (основы) - [Ссылка](https://youtu.be/-AZOi3kP9Js?si=SMPyKFRQB9EcFuWU)
 * 🎥 (EN) System Design: Why is Kafka fast? - [Ссылка](https://youtu.be/UNUz1-msbOM?si=MTpRXYWIwyRZrQJm)
 * 🎥 Роман Липовский. Kafka - [Ссылка](https://youtu.be/n0faRYjoom8?si=MmD2wChE9Qd3DSt4)
+* 📕 Собственное файловое хранилище для 400 Пбайт видеоконтента - [Ссылка](https://habr.com/ru/companies/habr_rutube/articles/950518/)
 
 #### Раздел 5 - Продвинутые облака и паттерны
 * 📕 (EN) Cloud Bound Applications- [Ссылка](https://www.infoq.com/articles/cloud-bound-applications/)
