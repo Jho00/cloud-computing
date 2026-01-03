@@ -23,3 +23,4 @@
 * Роман Липовский - TFTDS - Семинары - [Ссылка](https://www.youtube.com/playlist?list=PL4_hYwCyhAvZd6B5fN3yAB0zOCjhgpfgg)
 * Олег Сухорослов - Распределенные системы - [Ссылка](https://www.youtube.com/playlist?list=PLEqoHzpnmTfAW2gYw2R80EmGDwWqUR9mD)
 * MIT 6.824 - Distributed Systems - [Ссылка](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+* Highload++ Genesis 2025 - Подборка обучающих докладов от HighLoad - [Ссылка](https://www.youtube.com/playlist?list=PL4_hYwCyhAva6-f-YxobKju-6ltmn-jNC)

@@ -1,4 +1,3 @@
-# Cloud Computing
 Курс по дисциплине "Основы Клауд-компьютинга" | "Технологии распределенной обработки данных"
 
 Про курс:
@@ -6,7 +5,7 @@
 * [Требования к прохождению курса](src/docs/requirements.md)
 * [Практические работы](src/practice/readme.md)
 * [FAQ](src/docs/faq.md)
-* [Темы на экзамен](src/docs/exam.md)
+* [Билеты на экзамен](src/docs/exam.md)
 
 Материалы:
 * [Книги](src/reading-list/books.md)
