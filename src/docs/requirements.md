@@ -61,6 +61,7 @@
 * [Docker](../labs/docker) - является обязательным к выполнению
 * [Kafka](../labs/kafka) - является обязательным к выполнению для студентов очного формата
 * [Production-Ready Queue](../labs/production-ready-queue)
+* [CI/CD](../labs/ci-cd)
 * [Circuit Breaker](../labs/circuit-breaker)
 * [Failsafe Cron](../labs/failsafe-cron)
 * [Raft](../labs/raft)
