@@ -4,18 +4,78 @@
 
 В рамках приложений reverse-proxy используется для того, чтобы закрыть доступ извне к приложению и выставить наружу только защищенный шлюз (например, nginx)
 
+Приложение и nginx должны быть обернуты в Docker-контейнер и запускаться в экосистеме Docker
+
 Задачи на занятие:
 - Разработать веб приложение, выводящее hello-world
 - Настроить nginx, который осуществляет reverse proxy на разработанное приложение
-- Убедиться, что извне есть только доступ к nginx
+- Убедиться, что извне есть только доступ к nginx (после этого пункта необходимо отчитаться преподавателю)
 - Поднять несколько экземпляров серверов и настроить балансировку нагрузки между ними
 
 ### Методические материалы
+Пример docker-compose для nginx и нескольких серверов
+
+```
+version: "3.9"
+
+services:
+  proxy:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app1
+      - app2
+      - app3
+    networks:
+      - public
+      - internal
+
+  app1:
+    image: hello-api:latest
+    networks:
+      - internal
+  app2:
+    image: hello-api:latest
+    networks:
+      - internal
+  app3:
+    image: hello-api:latest
+    networks:
+      - internal
+
+networks:
+  public:
+  internal:
+    internal: true
+```
+
+Пример конфигурации nginx: 
+
+```
+upstream api {
+    ...TODO
+}
+
+server {
+    listen 80;
+
+    location /api/ {
+        proxy_pass http://api/;
+    }
+}
+```
+
+
+Почитать
 - https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
 - https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-reverse-proxy-on-ubuntu-22-04
 - https://help.reg.ru/support/servery-vps/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/kak-nastroit-nginx-v-kachestve-obratnogo-proksi-dlya-apache
 - https://nginx.org/en/docs/http/load_balancing.html
 - https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+
 
 ### Дополнительный материал для чтения
 - https://habr.com/ru/companies/otus/articles/506916/
