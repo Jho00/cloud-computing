@@ -53,9 +53,9 @@
 #### Раздел 7 - Миграция в облако
 * 📕 Миграция в облако: пошаговый план переезда бизнеса без рисков и простоев - [Ссылка](https://habr.com/ru/articles/975542/)
 * 📕 Миграция в облако быстро и без ошибок. Часть 1: миграция виртуальных машин - [Ссылка](https://habr.com/ru/companies/vk/articles/822543/)
-* 📕 Миграция в облака[Ссылка](https://habr.com/ru/articles/462537/)
+* 📕 Миграция в облака - [Ссылка](https://habr.com/ru/articles/462537/)
 
-#### Раздел 8 - Корп Архитектура
+#### Раздел 8 - Промышленная Архитектура
 * 📕 (EN) On the Definition of Microservice Bad Smells - [Ссылка](https://www.researchgate.net/publication/324007573_On_the_Definition_of_Microservice_Bad_Smells)
 * 📕 (EN) Microservices Design Principles - [Ссылка](https://www.developer.com/design/microservices-design-principles/)
 * 📕 Собственное файловое хранилище для 400 Пбайт видеоконтента - [Ссылка](https://habr.com/ru/companies/habr_rutube/articles/950518/)
