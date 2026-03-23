@@ -12,10 +12,10 @@
 * 📕 (EN) Определение клауд компьютинга - [Ссылка](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf)
 * 📕 (EN) A break in the clouds: towards a cloud definition - [Ссылка](https://dl.acm.org/doi/10.1145/1496091.1496100)
 * 📕 (EN) A view of cloud computing - [Ссылка](https://dl.acm.org/doi/10.1145/1721654.1721672)
-* 📕 (EN) A Taxonomy and Survey of Cloud Computing Systems - [Ссылка](https://ieeexplore.ieee.org/document/5331755) (Требуется авторизация для просмотра)
+* 📕 (EN) A Taxonomy and Survey of Cloud Computing Systems - [Ссылка](https://ieeexplore.ieee.org/document/5331755) 
 
 #### Раздел 3 - Физический слой и виртуализация
-* 📕 (EN) CCOA: Cloud Computing Open Architecture - [Ссылка](https://ieeexplore.ieee.org/abstract/document/5175875) (Требуется авторизация для просмотра)
+* 📕 (EN) CCOA: Cloud Computing Open Architecture - [Ссылка](https://ieeexplore.ieee.org/abstract/document/5175875) 
 * 🎥 (EN) Big Misconceptions about Bare Metal, Virtual Machines, and Containers - [Ссылка на ютуб](https://www.youtube.com/watch?v=Jz8Gs4UHTO8&ab_channel=ByteByteGo)
 * 📕 Виртуализация серверов - [Ссылка](https://intuit.ru/studies/courses/4107/624/lecture/13590)
 * 📕 Общая теория и археология виртуализации x86 - [Ссылка](https://habr.com/ru/articles/474776/)
