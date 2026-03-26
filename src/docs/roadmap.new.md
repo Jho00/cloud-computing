@@ -12,7 +12,7 @@
 | 8   | Корпоративная архитектура                            | ❌                                                                                                    |
 | 9   | Введение в распределенные системы                    | ❌                                                                                                    |
 | 10  | Отказоустойчивость в распределенных системах         | ❌                                                                                                    |
-| 11  | Apache Kafka                                         | ❌                                                                                                    |
+| 11  | Apache Kafka                                         | https://docs.google.com/presentation/d/1PCCMNanwLnng_NFb6IbooCzXT31Q9PH1Jb7BLdtzqXA/edit?usp=sharing                                                                                                    |
 | 12  | Облачные паттерны                                    | ❌                                                                                                    |
 | 13  | Облачные паттерны 2                                  | ❌                                                                                                    |
 | 14  | Блокчейн как архитектура                             | ❌                                                                                                    |
