@@ -7,7 +7,7 @@
 | 3   | Физический слой и виртуализация                      | https://docs.google.com/presentation/d/11ZLA-eGco-krsRLA9Cxg7bFQhJeTeqcP6sskRVuoAxY/edit?usp=sharing                                                                                                   |
 | 4   | Контейнеризация и Docker                             | https://docs.google.com/presentation/d/1X-SgaG6O1ru1vSZVvooTVZO3JIrX57N5G_x1injjtQM/edit?usp=sharing                                                                                                    |
 | 5   | Промышленная инфраструктура корпоративных приложений | https://docs.google.com/presentation/d/1VQp81V0Gbdio_R-dQhZL1ZNGHXTptGJpqvygNBgBKjw/edit?usp=sharing                                                                                                    |
-| 6   | Cloud Native                                         | ❌                                                                                                    |
+| 6   | Cloud Native                                         | https://docs.google.com/presentation/d/1Ay1g_uEsXwFbVCKakcNAWVJukeJjcdRrCClSRG3ETFI/edit?usp=sharing                                                                                                    |
 | 7   | Миграция в облако                                    | ❌                                                                                                    |
 | 8   | Корпоративная архитектура                            | ❌                                                                                                    |
 | 9   | Введение в распределенные системы                    | ❌                                                                                                    |
