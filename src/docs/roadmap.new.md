@@ -18,3 +18,8 @@
 | 14  | Блокчейн как архитектура                             | ❌                                                                                                    |
 | 15  | Безопасность распределенных систем                   | ❌                                                                                                    |
 | 16  | Лекция на открытую тему                              |                                                                                                      |
+
+
+
+## Отдельные лекции
+Разбор ошибок с задания по репликации - https://docs.google.com/presentation/d/1FzjZrRi_3AKw69ySkkIS-RyB0Sy0Yc1BsHCNxyUCiEI/edit?usp=sharing
