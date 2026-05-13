@@ -23,3 +23,7 @@
 
 ## Отдельные лекции
 Разбор ошибок с задания по репликации - https://docs.google.com/presentation/d/1FzjZrRi_3AKw69ySkkIS-RyB0Sy0Yc1BsHCNxyUCiEI/edit?usp=sharing
+
+temp:
+
+https://disk.yandex.ru/i/BaUz_lnCLW1InA
