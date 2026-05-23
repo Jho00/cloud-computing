@@ -14,7 +14,7 @@
 | 10  | Отказоустойчивость в распределенных системах         | https://docs.google.com/presentation/d/1L4mntFWURrlqdmWh1H67H7CrBDNu5YbB3tqYxAvqjVA/edit?usp=sharing                                                                                                    |
 | 11  | Apache Kafka                                         | https://docs.google.com/presentation/d/1PCCMNanwLnng_NFb6IbooCzXT31Q9PH1Jb7BLdtzqXA/edit?usp=sharing                                                                                                    |
 | 12  | Паттерны отказоустойчивости 1                                   | https://docs.google.com/presentation/d/1TNgS3qDRY1w7-pWagDbNhSKyZr5-gC312zISYnAww_w/edit?usp=sharing                                                                                                    |
-| 13  | Облачные паттерны 2                                  | ❌                                                                                                    |
+| 13  | Паттерны отказоустойчивости 2                                  | https://docs.google.com/presentation/d/1WtcoE0a_8ZRypUaHjJ0Q6KEi3RSgz79MFYylEei8IwM/edit?usp=sharing                                                                                                    |
 | 14  | Блокчейн как архитектура                             | ❌                                                                                                    |
 | 15  | Безопасность распределенных систем                   | ❌                                                                                                    |
 | 16  | Лекция на открытую тему                              |                                                                                                      |
